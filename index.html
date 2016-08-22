@@ -6,22 +6,41 @@
     </head>
     <body>
         <form method="post" action="https://formspree.io/nadolskyy@i.ua">
-            <lable for="name">  Name:</lable>
+            <lable for="name">Your Name:</lable>
             <input type="text" name="name" placeholder="your name"> <br>
             
-            <lable for="name">  Name:</lable>
-            <input type="text" name="name" placeholder="your name"> <br>
+            <lable for="name">Your age:</lable>
+            <input type="text" name="age" > <br>
+            
+            <lable for="name"> Your sex:</lable>
+            <input type="radio" value="male" name="sex">Male/<input type="radio" Value="female" name="sex">Female <br>
             
             <lable for="Email">Email:</lable>
             <input type="text" name="Email" ><br>
             
             <label>Question 1:<br>
-            Will you go to the election ?
-            <input type="text"><br>
+            Where do you live ?
+            <input type="text" name="question1"><br>
             
-            <label>Question 2:<br>
+             <label>Question 2:<br>
+            Will you go to the election ?
+            <input type="text" name="question2"><br>
+            
+            <label>Question 3:<br>
             Who is your best candidate ?
-            <input type="text"><br>
+            <input type="text" name="question3"><br>
+            
+            <label>Question 4:<br>
+            What do you expect from candidate ?
+            <input type="text" name="question4"><br>
+            
+            <label>Question 5:<br>
+            Do you trust the current government ? <br>
+            <input type="radio" name="question5"> Do not trust <br>
+            <input type="radio" name="question5"> Not too much <br>
+            <input type="radio" name="question5"> I agree with it <br> 
+            <input type="radio" name="question5"> Fully trust <br> 
+            
             <input type="submit" Name="send" value="send">
         </form>
 
